@@ -1,0 +1,25 @@
+.lead__link {
+  color: #ffffff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__link {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__link {
+    padding-left: 16px;
+  }
+}

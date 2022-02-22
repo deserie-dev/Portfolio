@@ -1,0 +1,9 @@
+.certifictaions-grid__item {
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .certifications-grid__item {
+    max-height: 216px;
+  }
+}

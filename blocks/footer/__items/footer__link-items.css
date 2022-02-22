@@ -1,0 +1,8 @@
+@media screen and (max-width: 425px) {
+  .footer__items {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}

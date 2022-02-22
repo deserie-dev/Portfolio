@@ -1,0 +1,40 @@
+@import url("./__item/certifications-grid__item.css");
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1184px;
+  grid-gap: 16px;
+  margin: 92px auto 0px auto;
+  width: calc(100% * (1184 / 1280));
+}
+
+@media screen and (max-width: 1024px) {
+  .certifications-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+    margin: 92px auto 0px auto;
+    width: calc(100% * (928 / 1024));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .certifications-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+    width: calc(100% * (720 / 768));
+    margin: 88px auto 0px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .certifications-grid {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+    width: calc(100% * (288 / 320));
+    margin-top: 64px;
+  }
+}
