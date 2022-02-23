@@ -1,0 +1,26 @@
+.lead__image {
+  width: 31vw;
+  max-width: 464px;
+  max-height: 464px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 758px) {
+  .lead__image {
+    max-height: 317px;
+  }
+}
+
+@media (max-width: 758px) {
+  .lead__image {
+    max-height: 238px;
+  }
+}
+
+@media (max-width: 590px) {
+  .lead__image {
+    width: 90vw;
+    max-height: 463px;
+  }
+}

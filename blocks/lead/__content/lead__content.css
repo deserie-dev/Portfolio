@@ -1,0 +1,7 @@
+.lead__content {
+  display: flex;
+  flex-direction: column;
+  width: 42vw;
+  margin-left: 3.8vw;
+  align-self: flex-start;
+}

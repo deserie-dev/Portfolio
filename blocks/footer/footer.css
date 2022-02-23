@@ -5,6 +5,7 @@
 @import url(./__links-item/footer__links-item.css);
 
 .footer {
+  background-color: #f5e7e7;
   display: flex;
   justify-content: space-between;
   max-width: 1184px;

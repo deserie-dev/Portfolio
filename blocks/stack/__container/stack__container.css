@@ -1,0 +1,38 @@
+.stack__container {
+  padding: 32px;
+}
+
+.stack__container table {
+  width: 100%;
+  background: #fff;
+  color: #222;
+  padding: 24px;
+  box-shadow: 0 4px 15px -8px rgba(0, 0, 0, 0.4);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.stack__container table thead tr {
+  background: plum;
+}
+
+.stack__container table td,
+.stack__container table th {
+  padding: 16px 32px;
+  text-align: center;
+}
+
+@media (max-width: 580px) {
+  .stack__container table thead {
+    display: none;
+  }
+
+  .stack__container table td {
+    display: block;
+  }
+
+  .stack__container table td::before {
+    content: attr(data-heading) ": ";
+    font-weight: bold;
+  }
+}

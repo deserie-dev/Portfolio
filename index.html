@@ -5,35 +5,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
-  <title>
-    <img class="header__logo" src="./images/logo.png" alt="Logo">
-  </title>
+  <title>Deserie Murembeni</title>
 </head>
 
 <body class="root">
   <div>
-    <header class="header">
-      <h2 class="header__menu-links">Deserie Murembeni</h2>
-      <ul class="header__menu-links">
-        <li class="header__list-item"><a class="header__menu-link header__menu-link_active" href="#"
-            target="_self">Blog</a></li>
-        <li class="header__list-item"><a class="header__menu-link" href="#" target="_self">About</a></li>
-        <li class="header__list-item"><a class="header__menu-link" href="#" target="_self">Projects</a></li>
-        <li class="header__list-item"><a class="header__menu-link" href="#" target="_self">Contact</a></li>
-      </ul>
-    </header>
+    <nav class="nav">
+      <h2 class="nav__menu-name">Deserie Murembeni</h2>
+        <ul class="nav__menu">
+          <li class="nav__menu-item"><a href="#">Blog</a></li>
+          <li class="nav__menu-item"><a href="">About</a></li>
+          <li class="nav__menu-item"><a href="#">Projects</a></li>
+          <li class="nav__menu-item"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
     <main>
       <section class="lead">
-        <h1 class="lead__title">Hi, I'm Deserie</h1>
-        <p class="lead__subtitle">I'm a Frontend Developer</p>
-        <p class="lead__link">Latest Lab</p>
-        <p class="lead__link">Latest Blog Post</p>
+        <img class="lead__image" src="./images/pic.jpg" alt="selfie">
+        <div class="lead__content">
+          <h1 class="lead__title">Hi, I'm Deserie</h1>
+          <p class="lead__text">I'm a web developer who also enjoys all things to do with DevOps & Cloud Computing</p>
+        </div>
+      </section>
+
+      <section class="stack">
+        <div class="stack__container">
+          <h2 class="stack__title">My Stack</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Frontend</th>
+                <th>Backend</th>
+                <th>DevOps Tools</th>
+                <th>Cloud</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <td data-heading="Frontend" >HTML5, CSS</td>
+                <td data-heading="Backend" >Node.js</td>
+                <td data-heading="DevOps Tools" >Terraform</td>
+                <td data-heading="Cloud" >AWS</td>
+              </tr>
+
+              <tr>
+                <td data-heading="Frontend" >JavaScript</td>
+                <td data-heading="Backend" ></td>
+                <td data-heading="DevOps Tools" >Docker</td>
+                <td data-heading="Cloud" data-heading="DevOps Tools" >Azure</td>
+              </tr>
+
+              <tr>
+                <td data-heading="Frontend" >React</td>
+                <td data-heading="Backend" ></td>
+                <td data-heading="DevOps Tools" >Linux</td>
+                <td data-heading="Cloud" ></td>
+              </tr>
+
+            </tbody>
+
+          </table>
+        </div>
       </section>
 
       <section class="certifications-grid">
-        <img class="certifications-grid__item" src="./images/photo-grid-highway.jpg" alt="AWS Solutions Architect">
-        <img class="certifications-grid__item" src="./images/photo-grid-lake.jpg" alt="Azure Fundamentals">
+
+        <h2 class="certifications-grid__title">Cloud Certifications</h2>
+
+        <div>
+          <img class="certifications-grid__item" src="./images/gcp1.png" alt="AWS Solutions Architect">
+          <img class="certifications-grid__item" src="./images/ansible2.png" alt="Azure Fundamentals">
+        </div>
       </section>
 
       <section class="projects">

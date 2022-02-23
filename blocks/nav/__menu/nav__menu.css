@@ -1,0 +1,10 @@
+.nav__menu {
+  background-color: #f5e7e7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1232px;
+}

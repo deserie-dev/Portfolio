@@ -1,0 +1,23 @@
+.nav__menu-item {
+  color: #527a86;
+  font-family: "Quicksand", serif;
+  font-size: 24px;
+  font-style: normal;
+  margin: 0 0.7em;
+  position: relative;
+}
+
+.nav__menu-item a {
+  color: #527a86;
+  text-decoration: none;
+}
+
+.nav__menu-item:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .nav__menu-item {
+    font-size: 18px;
+  }
+}
