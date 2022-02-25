@@ -1,7 +1,11 @@
-.lead__text.css {
+.lead__text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.33;
-  color: #1a1b22;
+  color: #527a86;
+}
+
+.lead__text a {
+  color: #527a86;
 }

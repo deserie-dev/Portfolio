@@ -2,7 +2,11 @@
   font-family: "Inter", Arial, sans-serif;
   /* background-color: #f5e7e7; */
   background-color: #fffafa;
-  margin: 0px auto 0px auto;
+  /* margin: 0px auto 0px auto;
   min-width: 320px;
   justify-content: center;
+  border: 2px solid red; */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }

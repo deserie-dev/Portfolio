@@ -2,13 +2,15 @@
 @import url("./__title/lead__title.css");
 @import url("./__text/lead__text.css");
 @import url("./__content/lead__content.css");
+@import url("./__links/lead__links.css");
+@import url("./__link/lead__link.css");
 
 .lead {
+  max-width: 1440px;
+  padding: 80px 104px;
   display: flex;
-  flex-direction: row;
-  margin-left: 7vw;
-  align-items: center;
-  padding: 80px 0;
+  background-color: #fff;
+  margin: auto;
 }
 
 /* @media screen and (max-width: 1024px) {

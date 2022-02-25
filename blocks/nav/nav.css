@@ -1,37 +1,31 @@
 @import url("./__menu-name/nav__menu-name.css");
 @import url("./__menu/nav__menu.css");
 @import url("./__menu-item/nav__menu-item.css");
+@import url("./__burger/nav__burger.css");
+@import url("./_active/nav_active.css");
 
 .nav {
   background-color: #f5e7e7;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 42px;
+  /* min-height: 14vh; */
+  /* padding: 42px 40px; */
+  padding: 0 7.2vw;
+  height: 100px;
+
+  /* padding-top: 42px;
   padding-bottom: 42px;
   padding-left: 40px;
   padding-right: 40px;
   margin: 0;
-  width: 100%;
+  width: 100%; */
   /* width: calc(100% - 296px);
   max-width: 984px; */
 }
 
-@media screen and (max-width: 1024px) {
-  .nav {
-    width: calc(100% - 96px);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .nav {
-    width: calc(100% - 48px);
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .nav {
-    width: calc(100% - 32px);
-    padding-top: 20px;
+    max-width: 100%;
   }
 }

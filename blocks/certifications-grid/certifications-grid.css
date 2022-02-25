@@ -1,9 +1,9 @@
 @import url("./__items/certification-grid__items.css");
 @import url("./__item/certifications-grid__item.css");
-@import url("./__title/certifictaions-grid__title.css");
+@import url("./__title/certifications-grid__title.css");
 
 .certifications-grid {
-  display: flex;
+  color: #527a86;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;

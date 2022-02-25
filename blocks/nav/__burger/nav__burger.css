@@ -1,0 +1,17 @@
+.nav__burger {
+  display: none;
+  cursor: pointer;
+}
+
+.nav__burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #527a86;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__burger {
+    display: block;
+  }
+}

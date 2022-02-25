@@ -1,9 +1,9 @@
 .lead__image {
-  width: 31vw;
-  max-width: 464px;
-  max-height: 464px;
+  width: 464px;
+  height: 464px;
   border-radius: 50%;
   object-fit: cover;
+  margin-left: 100px;
 }
 
 @media (max-width: 758px) {

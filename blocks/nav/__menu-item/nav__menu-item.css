@@ -16,8 +16,8 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 768px) {
   .nav__menu-item {
-    font-size: 18px;
+    opacity: 0;
   }
-}
+} */

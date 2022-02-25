@@ -9,27 +9,34 @@
 </head>
 
 <body class="root">
-  <div>
-    <nav class="nav">
-      <h2 class="nav__menu-name">Deserie Murembeni</h2>
-        <ul class="nav__menu">
-          <li class="nav__menu-item"><a href="#">Blog</a></li>
-          <li class="nav__menu-item"><a href="">About</a></li>
-          <li class="nav__menu-item"><a href="#">Projects</a></li>
-          <li class="nav__menu-item"><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+  <nav class="nav">
+    <div class="nav__menu-name">
+      <h4>Deserie Murembeni</h4>
+    </div>
+    <ul class="nav__menu">
+      <li class="nav__menu-item"><a href="#">Blog</a></li>
+      <li class="nav__menu-item"><a href="#skills">Skills</a></li>
+      <li class="nav__menu-item"><a href="#">Projects</a></li>
+      <li class="nav__menu-item"><a href="#">Contact</a></li>
+    </ul>
+    <div class="nav__burger">
+      <div class="nav__burger_line1"></div>
+      <div class="nav__burger_line2"></div>
+      <div class="nav__burger_line3"></div>
+  </nav>
 
     <main>
-      <section class="lead">
-        <img class="lead__image" src="./images/pic.jpg" alt="selfie">
+      <section class="lead" id="about">
         <div class="lead__content">
           <h1 class="lead__title">Hi, I'm Deserie</h1>
           <p class="lead__text">I'm a web developer who also enjoys all things to do with DevOps & Cloud Computing</p>
+          <p class="lead__text">You can find me blogging about containers over on <a href="">Hashnode.</a></p>
+          <p class="lead__text">Connect with me on <a href="">Twitter</a>, <a href="">LinkedIn</a> or checkout my <a href="">GitHub</a> profile.</p>
         </div>
+        <img class="lead__image" src="./images/pic.jpg" alt="selfie">
       </section>
 
-      <section class="stack">
+      <section class="stack" id="skills">
         <div class="stack__container">
           <h2 class="stack__title">My Stack</h2>
           <table>
@@ -75,9 +82,9 @@
 
         <h2 class="certifications-grid__title">Cloud Certifications</h2>
 
-        <div>
-          <img class="certifications-grid__item" src="./images/gcp1.png" alt="AWS Solutions Architect">
-          <img class="certifications-grid__item" src="./images/ansible2.png" alt="Azure Fundamentals">
+        <div class="certification-grid__items">
+          <img class="certifications-grid__item" src="./images/aws.png" alt="AWS Solutions Architect">
+          <img class="certifications-grid__item" src="./images/azure.png" alt="Azure Fundamentals">
         </div>
       </section>
 
@@ -85,20 +92,13 @@
     </main>
 
     <footer class="footer">
-      <nav class="footer__items">
-        <ul class="footer__links">
-          <li class="footer__links-item"><a class="footer__link" href="https://yandex.com/maps" target="_blank">GitHub</a>
-          </li>
-          <li class="footer__links-item"><a class="footer__link" href="https://yandex.com/weather/moscow"
-              target="_blank">Twitter</a></li>
-          <li class="footer__links-item"><a class="footer__link" href="https://calendar.yandex.ru"
-              target="_blank">LinkedIn</a></li>
-        </ul>
-      </nav>
       <p class="footer__author">&copy; 2022. Deserie Murembeni</p>
     </footer>
 
   </div>
+
+  <script src="app.js"></script>
+
 </body>
 
 </html>
