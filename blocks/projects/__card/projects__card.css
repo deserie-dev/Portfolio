@@ -1,0 +1,18 @@
+.projects__card {
+  align-self: normal;
+  flex: 1 0 270px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects__card .img {
+  width: 100%;
+  height: 220px;
+}
+
+.projects__card .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

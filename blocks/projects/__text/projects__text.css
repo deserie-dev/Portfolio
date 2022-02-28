@@ -1,0 +1,9 @@
+.projects__text {
+  padding: 10px;
+  text-align: center;
+}
+
+.projects__text h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
