@@ -14,10 +14,9 @@
       <h4>Deserie Murembeni</h4>
     </div>
     <ul class="nav__menu">
-      <li class="nav__menu-item"><a href="#">Blog</a></li>
+      <li class="nav__menu-item"><a href="https://deserie.hashnode.dev/" rel="noopener" target="_blank">Blog</a></li>
       <li class="nav__menu-item"><a href="#skills">Skills</a></li>
-      <li class="nav__menu-item"><a href="#">Projects</a></li>
-      <li class="nav__menu-item"><a href="#">Contact</a></li>
+      <li class="nav__menu-item"><a href="#projects">Projects</a></li>
     </ul>
     <div class="nav__burger">
       <div class="nav__burger_line1"></div>
@@ -30,8 +29,8 @@
         <div class="lead__content">
           <h1 class="lead__title">Hi, I'm Deserie</h1>
           <p class="lead__text">I'm a web developer who also enjoys all things to do with DevOps & Cloud Computing</p>
-          <p class="lead__text">You can find me blogging about containers over on <a href="">Hashnode.</a></p>
-          <p class="lead__text">Connect with me on <a href="">Twitter</a>, <a href="">LinkedIn</a> or checkout my <a href="">GitHub</a> profile.</p>
+          <p class="lead__text">You can find me blogging about containers over on <a href="https://deserie.hashnode.dev/" rel="noopener" target="_blank">Hashnode.</a></p>
+          <p class="lead__text">Connect with me on <a href="https://twitter.com/deserie85" rel="noopener" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/deserie-murembeni/" rel="noopener" target="_blank">LinkedIn</a> or checkout my <a href="https://github.com/deserie-dev" rel="noopener" target="_blank">GitHub</a> profile.</p>
         </div>
         <img class="lead__image" src="./images/pic.jpg" alt="selfie">
       </section>
@@ -88,51 +87,88 @@
         </div>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="projects">
 
         <h2 class="projects__title">Recent Projects</h2>
+        <p class="projects__subtitle">These are some of the projects I completed as part of the YPracticum Web Development Bootcamp.</p>
 
         <div class="projects__container">
           <div class="projects__wrapper">
 
             <div class="projects__card">
-              <div class="projects__image">
-                <img src="./images/react.png" alt="Around React Project">
-              </div>
+              <img class="projects__image" src="./images/react.png" alt="Around React Project">
+        
               <div class="projects__text">
                 <h4>Around React</h4>
-                <p>This is a react project</p>
+                <p>This application allows users to upload photos and create a custom profile. This adaptive page includes form validation, interactive popups, fade-in and fade-out animations, functional like and
+                delete buttons.</p>
+                <p>Stack: HTML5, CSS3, BEM, Figma, React</p>
+                <a href="https://deserie-around-react.netlify.app" rel="noopener" target="_blank">Website</a>
+                <a href="https://github.com/deserie-dev/around-react" rel="noopener" target="_blank">Code</a>
               </div>
             </div>
 
             <div class="projects__card">
-              <div class="projects__image">
-                <img src="./images/portland.png" alt="Portland Project">
-              </div>
+              <img class="projects__image" src="./images/portland.png" alt="Portland Project">
               <div class="projects__text">
                 <h4>Portland to Portland</h4>
-                <p>This is a HTML, CSS project</p>
+                <p>A traveling guide leading the user to explore more highlights about an epic bicycle journey from Portland, ME. to
+                Portland, OR. Utilized a Figma design and implemented responsive design elements on the webpage.</p>
+                <p>Stack: HTML5, CSS3, BEM</p>
+                <a href="https://deserie-portland-to-portland.netlify.app/" rel="noopener" target="_blank">Website</a>
+                <a href="https://github.com/deserie-dev/web_project_3" rel="noopener" target="_blank">Code</a>
               </div>
             </div>
 
             <div class="projects__card">
-              <div class="projects__image">
-                <img src="./images/web-1.png" alt="Web Project 1">
-              </div>
+              <img class="projects__image" src="./images/web-1.png" alt="Web Project 1">
               <div class="projects__text">
-                <h4>Web Project 1</h4>
-                <p>This is a HTML / CSS project</p>
+                <h4>Learning to Learn</h4>
+                <p>An educational landing page with multiple sections about various methods to obtain new skills. Brought mockups to life
+                with the final result of a responsive web page and CSS animation.
+                Learning how to learn. This page describes different study techniques and methods along with resources to learn more.</p>          
+                <p>Stack: HTML5, CSS3, BEM</p>
+                <a href="https://deserie-how-to-learn.netlify.app/" rel="noopener" target="_blank">Website</a>
+                <a href="https://github.com/deserie-dev/web_project_1" rel="noopener" target="_blank">Code</a>
               </div>
             </div>
 
           </div>
         </div>
 
-      </section>    
+      </section>   
 
     </main>
 
     <footer class="footer">
+
+      <div class="footer__socials">
+      
+        <a href="https://github.com/deserie-dev" class="footer__social-link" rel="noopener" target="_blank"
+          aria-label="Visit my Github">
+          <img src="./images/github.png" alt="Github" class="footer__social-icon transparency" />
+        </a>
+      
+        <a href="https://twitter.com/deserie85" class="footer__social-link" rel="noopener" target="_blank"
+          aria-label="Visit my Twitter">
+          <img src="./images/twitter.png" alt="Twitter" class="footer__social-icon transparency" />
+        </a>
+      
+        <a href="https://www.linkedin.com/in/deserie-murembeni/" class="footer__social-link" rel="noopener" target="_blank"
+          aria-label="Visit my Linkedin">
+          <img src="./images/linkedin.png" alt="LinkedIn" class="footer__social-icon transparency" />
+        </a>
+      
+        <a href="https://deserie.hashnode.dev/" class="footer__social-link" rel="noopener" target="_blank"
+          aria-label="Visit my Blog">
+          <img src="./images/hashnode.png" alt="Hashnode" class="footer__social-icon transparency" />
+        </a>
+        <a href="mailto:deserie.dev@gmail.com" class="footer__social-link" rel="noopener" target="_blank"
+          aria-label="Email me">
+          <img src="./images/email.png" alt="Email" class="footer__social-icon transparency" />
+        </a>
+      </div>
+
       <p class="footer__author">&copy; 2022. Deserie Murembeni</p>
     </footer>
 

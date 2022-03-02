@@ -1,19 +1,15 @@
-@import url(./__author/footer__author.css);
-@import url(./__link/footer__link.css);
-@import url(./__items/footer__link-items.css);
-@import url(./__links/footer__links.css);
-@import url(./__links-item/footer__links-item.css);
+@import url("./__socials/footer__socials.css");
+@import url("./__social-icon/footer__social-icon.css");
+@import url("./__social-link/footer__social-link.css");
+@import url("./__author/footer__author.css");
 
 .footer {
   background-color: #f5e7e7;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 22px;
-  padding: 33px 0;
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    max-width: 100%;
-  }
+  align-items: center;
+  padding: 50px 48px;
+  margin-top: 40px;
+  width: 100%;
 }

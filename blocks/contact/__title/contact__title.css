@@ -1,9 +1,8 @@
-.projects__title {
+.contact__title {
   border-bottom: 1px solid #eee;
   padding-bottom: 8px;
-  padding-top: 30px;
   width: 720px;
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 32px;
   margin-left: auto;
   margin-right: auto;
@@ -16,7 +15,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .projects__title {
+  .contact__title {
     max-width: 100%;
   }
 }

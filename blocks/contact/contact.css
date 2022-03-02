@@ -1,0 +1,15 @@
+@import url("./__title/contact__title.css");
+@import url("./__socials/contact__socials.css");
+@import url("./__social-link/contact__social-link.css");
+@import url("./__social-icon/contact__social-icon.css");
+
+.contact {
+  width: 100%;
+  background: #fff;
+  color: #527a86;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 48px;
+}

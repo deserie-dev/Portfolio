@@ -13,3 +13,9 @@
   line-height: 36px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+  .certifications-grid__title {
+    max-width: 100%;
+  }
+}

@@ -1,4 +1,5 @@
 .projects__text {
+  color: #527a86;
   padding: 10px;
   text-align: center;
 }
@@ -6,4 +7,12 @@
 .projects__text h4 {
   margin-bottom: 10px;
   font-size: 1.2rem;
+}
+
+.projects__text a {
+  color: #527a86;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
 }
