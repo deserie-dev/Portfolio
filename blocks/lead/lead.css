@@ -4,6 +4,7 @@
 @import url("./__content/lead__content.css");
 @import url("./__links/lead__links.css");
 @import url("./__link/lead__link.css");
+@import url("./__text/_span-accent/text_span-accent.css");
 
 .lead {
   max-width: 1440px;

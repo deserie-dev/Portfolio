@@ -1,0 +1,9 @@
+.lead__text_span-accent {
+  color: #2f80ed;
+  text-decoration: none;
+  opacity: 1.0;
+  transition: opacity 1s linear 1s;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
