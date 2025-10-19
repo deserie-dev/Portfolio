@@ -3,6 +3,7 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/tools.css);
 @import url(../blocks/stack/stack.css);
 @import url(../blocks/certifications-grid/certifications-grid.css);
 @import url(../blocks/projects/projects.css);
