@@ -1,1 +1,36 @@
+.tools {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9; /* you can change the colour to match your brand */
+}
+
+.tools__heading {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #333; /* adjust for your theme */
+}
+
+.tools__logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tools__logos img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.tools__logos img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .tools__logos img {
+    width: 80px;
+  }
+}
 
