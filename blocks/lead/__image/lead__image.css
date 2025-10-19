@@ -1,7 +1,7 @@
 .lead__image {
   width: 464px;
   height: 464px;
-  border-radius: 50%;
+  border-radius: 4px;
   object-fit: cover;
   margin-left: 100px;
 }
